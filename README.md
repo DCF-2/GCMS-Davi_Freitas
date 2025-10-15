@@ -5,3 +5,4 @@ Repositorio para a disciplina de Gerenciamento Configuração e Testes - TADS - 
 Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 
 * Davi Freitas (@DCF-2, dono)
+* Ramide Dantas (@ramidedantas)
