@@ -19,6 +19,7 @@ class WebAppApplicationTests {
     @Autowired
     private MockMvc mockMvc;
 
+    @SuppressWarnings("null")
     @Test
     public void shouldReturnDefaultMessage() throws Exception {
         this.mockMvc.perform(get("/"))
@@ -27,6 +28,7 @@ class WebAppApplicationTests {
 
     }
 
+    @SuppressWarnings("null")
     @Test
     public void shouldReturnDefaultMessageDavi() throws Exception {
         this.mockMvc.perform(get("/Davi"))
@@ -37,6 +39,7 @@ class WebAppApplicationTests {
 
     }
 
+    @SuppressWarnings("null")
     @Test
     public void shouldReturnDefaultMessageHugo() throws Exception {
         this.mockMvc.perform(get("/Hugo"))
@@ -44,6 +47,17 @@ class WebAppApplicationTests {
                 .andDo(print()).andExpect(status().isOk())
                 .andExpect(content()
                         .string(containsString("Hugos is my brother ! Say hello Hugo")));
+
+    }
+
+    @SuppressWarnings("null")
+    @Test
+    public void shouldReturnDefaultMessageHotfix() throws Exception {
+        this.mockMvc.perform(get("/hotfix"))
+
+                .andDo(print()).andExpect(status().isOk())
+                .andExpect(content()
+                        .string(containsString("Hello, Hotfix!")));
 
     }
 }
