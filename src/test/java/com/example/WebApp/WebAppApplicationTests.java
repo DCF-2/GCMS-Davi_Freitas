@@ -33,7 +33,7 @@ class WebAppApplicationTests {
 
                 .andDo(print()).andExpect(status().isOk())
                 .andExpect(content()
-                        .string(containsString("Hello, Davi!")));
+                        .string(containsString("Hello, Davi! Say hello Davi")));
 
     }
 
