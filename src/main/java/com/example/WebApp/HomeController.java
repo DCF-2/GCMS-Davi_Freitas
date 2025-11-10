@@ -18,6 +18,6 @@ public class HomeController {
 
     @RequestMapping("/Hugo")
     public @ResponseBody String greetingHugo() {
-        return "Hugos is my brother !";
+        return "Hugos is my brother ! Say hello Hugo";
     }
 }
