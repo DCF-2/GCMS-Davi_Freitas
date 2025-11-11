@@ -20,6 +20,7 @@ class WebAppApplicationTests {
     private MockMvc mockMvc;
 
     @SuppressWarnings("null")
+    
     @Test
     public void shouldReturnDefaultMessage() throws Exception {
         this.mockMvc.perform(get("/"))
@@ -29,6 +30,7 @@ class WebAppApplicationTests {
     }
 
     @SuppressWarnings("null")
+ 
     @Test
     public void shouldReturnDefaultMessageDavi() throws Exception {
         this.mockMvc.perform(get("/Davi"))
@@ -40,6 +42,7 @@ class WebAppApplicationTests {
     }
 
     @SuppressWarnings("null")
+    
     @Test
     public void shouldReturnDefaultMessageHugo() throws Exception {
         this.mockMvc.perform(get("/Hugo"))
