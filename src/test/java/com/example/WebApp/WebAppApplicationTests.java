@@ -67,7 +67,7 @@ class WebAppApplicationTests {
     @SuppressWarnings("null")
     @Test
     public void shouldReturnDefaultMessageTeste() throws Exception {
-        this.mockMvc.perform(get("/teste"))
+        this.mockMvc.perform(get("/Teste"))
 
                 .andDo(print()).andExpect(status().isOk())
                 .andExpect(content()
