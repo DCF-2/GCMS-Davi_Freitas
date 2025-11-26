@@ -71,7 +71,7 @@ class WebAppApplicationTests {
 
                 .andDo(print()).andExpect(status().isOk())
                 .andExpect(content()
-                        .string(containsString("Hello, testes_container!")));
+                        .string(containsString("Hello, teste_container!")));
 
     }
 }
