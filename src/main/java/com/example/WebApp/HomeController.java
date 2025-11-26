@@ -28,6 +28,6 @@ public class HomeController {
 
     @RequestMapping("/teste")
     public @ResponseBody String greetingTeste() {
-        return "Hello, testes_container!";
+        return "Hello, teste_container!";
     }
 }
