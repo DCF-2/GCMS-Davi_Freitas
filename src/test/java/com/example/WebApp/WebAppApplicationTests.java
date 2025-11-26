@@ -63,4 +63,15 @@ class WebAppApplicationTests {
                         .string(containsString("Hello, hotfix!")));
 
     }
+
+    @SuppressWarnings("null")
+    @Test
+    public void shouldReturnDefaultMessageTeste() throws Exception {
+        this.mockMvc.perform(get("/teste"))
+
+                .andDo(print()).andExpect(status().isOk())
+                .andExpect(content()
+                        .string(containsString("Hello, teste_container!")));
+
+    }
 }
