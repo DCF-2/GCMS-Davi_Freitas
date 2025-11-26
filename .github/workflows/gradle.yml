@@ -15,8 +15,9 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    container:
+        image: docker://davifreitas01/gcms-davi_freitas:imagem-webapp 
     permissions:
       contents: read
 
