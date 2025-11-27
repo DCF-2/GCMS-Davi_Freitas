@@ -102,9 +102,11 @@ Secrets utilizados no GitHub:
        └─ gradle.yml    # Pipeline CI/CD  
 ─ README.md             # Documentação do projeto
 ```
-### 🤝 Colaboradores / Autor
-Davi Freitas — @DCF-2 (desenvolvedor principal)
-@ramidedantas — Professor / Orientador
+### 🤝 Colaboradores / Autor 
+Coloque seu nome abaixo se você é um dos colaboradores do repositório:
+
+* Davi Freitas (@DCF-2, dono)
+* Ramide Dantas (@ramidedantas)-->
 
 ## 📝 Licença
 Este projeto está licenciado sob a MIT License
